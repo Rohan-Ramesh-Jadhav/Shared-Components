@@ -1,0 +1,21 @@
+<ng-container *ngFor="let eachBtn of _buttonProps">
+  <ng-container *ngIf="eachBtn.type=='basic'">
+    <button [class]="eachBtn.class" (click)="_function()">
+      {{eachBtn.text}}
+    </button>
+  </ng-container>
+
+  <ng-container *ngIf="eachBtn.type=='icon-btn'">
+    <button [class]="eachBtn.class" (click)="_function()">
+      <mat-icon>thumb_up</mat-icon>
+      {{eachBtn.text}}
+    </button>
+  </ng-container>
+</ng-container>
+
+
+<!-- <ng-container *ngIf="_buttonProps.type=='image-btn'">
+  <button [class]="_buttonProps.class" (click)="_function()">
+    <span>{{_buttonProps.text}}</span>
+  </button>
+</ng-container> -->

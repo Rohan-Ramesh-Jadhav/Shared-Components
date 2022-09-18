@@ -1,0 +1,27 @@
+@import "src/assets/globle-styles/global.scss";
+.card1{
+    @apply w-80 bg-blue-400 text-black my-4;
+}
+
+.card2{
+    @apply w-40 bg-violet-500 text-white my-4;
+}
+.card3{
+    @apply w-3/5 bg-gray-300 text-black flex p-0 my-4;
+
+    .left-bar{
+       @apply bg-orange-600 px-2 py-10 m-0 content-center h-full rounded-l
+    }
+    .card-title{
+        @apply m-0 px-2 pb-2 flex items-center
+    }
+    .card-content{
+        @apply m-0 inline-block px-2
+    }
+    .right-section{
+        @apply pt-4
+    }
+    .icon{
+        @apply text-orange-600
+    }
+}

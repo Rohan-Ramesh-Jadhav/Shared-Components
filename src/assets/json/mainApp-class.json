@@ -1,0 +1,39 @@
+{
+  "cards" : [
+    {
+      "type": "type1",
+      "title": "Main1",
+      "content": "Hello",
+      "class": "card1"
+    },
+    {
+      "type": "type1",
+      "title": "Main2",
+      "content": "Hi",
+      "class": "card2"
+    },
+    {
+      "type": "type2",
+      "title": "Main3",
+      "content": "Hi",
+      "class": "card3"
+    }
+  ],
+  "buttons" :[
+    {
+      "text": "Button 1",
+      "class": "btn-filled",
+      "type": "basic"
+    },
+    {
+      "text": "Button 2",
+      "class": "btn-borderd",
+      "type": "basic"
+    },
+    {
+      "text": "Button 3",
+      "class": "btn-borderd",
+      "type": "icon-btn"
+    }
+  ]
+}

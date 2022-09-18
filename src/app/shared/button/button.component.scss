@@ -1,0 +1,10 @@
+@import "src/assets/globle-styles/global.scss";
+
+.btn-filled{
+    @apply rounded-full text-white bg-green-400 px-5 py-2 m-4;
+
+}
+
+.btn-borderd{
+    @apply rounded-full border-4 border-green-400 px-5 py-2 m-4;
+}

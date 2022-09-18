@@ -1,0 +1,25 @@
+<ng-container *ngFor="let eachCard of _cardData">
+  <ng-container *ngIf="eachCard.type=='type1'">
+    <mat-card [class]="eachCard.class">
+      <mat-card-title>{{eachCard.title}}</mat-card-title>
+      <mat-card-content>
+        {{eachCard.content}}
+      </mat-card-content>
+    </mat-card>
+  </ng-container>
+
+  <ng-container *ngIf="eachCard.type=='type2'">
+    <mat-card [class]="eachCard.class">
+      <div class="left-bar"></div>
+      <div class="right-section">
+        <mat-card-title class="card-title">
+          <mat-icon class="icon" aria-hidden="false" aria-label="Example home icon" fontIcon="notification_important"></mat-icon>
+          <span>{{eachCard.title}}</span>
+        </mat-card-title>
+        <mat-card-content class="card-content">
+          {{eachCard.content}}
+        </mat-card-content>
+      </div>
+    </mat-card>
+  </ng-container>
+</ng-container>
